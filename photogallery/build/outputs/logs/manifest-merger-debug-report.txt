@@ -1,0 +1,51 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\MyFilesAboutAndroid\frame\Test\photogallery\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from D:\MyFilesAboutAndroid\frame\Test\photogallery\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from D:\MyFilesAboutAndroid\frame\Test\photogallery\src\main\AndroidManifest.xml:2:1-22:12
+	package
+		ADDED from D:\MyFilesAboutAndroid\frame\Test\photogallery\src\main\AndroidManifest.xml:3:5-27
+		INJECTED from D:\MyFilesAboutAndroid\frame\Test\photogallery\src\main\AndroidManifest.xml
+		INJECTED from D:\MyFilesAboutAndroid\frame\Test\photogallery\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\MyFilesAboutAndroid\frame\Test\photogallery\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from D:\MyFilesAboutAndroid\frame\Test\photogallery\src\main\AndroidManifest.xml:5:5-20:19
+	android:label
+		ADDED from D:\MyFilesAboutAndroid\frame\Test\photogallery\src\main\AndroidManifest.xml:7:9-41
+	android:allowBackup
+		ADDED from D:\MyFilesAboutAndroid\frame\Test\photogallery\src\main\AndroidManifest.xml:6:9-35
+activity#com.wq.photo.MediaChoseActivity
+ADDED from D:\MyFilesAboutAndroid\frame\Test\photogallery\src\main\AndroidManifest.xml:8:9-12:20
+	android:label
+		ADDED from D:\MyFilesAboutAndroid\frame\Test\photogallery\src\main\AndroidManifest.xml:11:13-63
+	android:theme
+		ADDED from D:\MyFilesAboutAndroid\frame\Test\photogallery\src\main\AndroidManifest.xml:9:13-44
+	android:name
+		ADDED from D:\MyFilesAboutAndroid\frame\Test\photogallery\src\main\AndroidManifest.xml:10:13-47
+activity#com.wq.photo.CropImageActivity
+ADDED from D:\MyFilesAboutAndroid\frame\Test\photogallery\src\main\AndroidManifest.xml:13:9-16:20
+	android:label
+		ADDED from D:\MyFilesAboutAndroid\frame\Test\photogallery\src\main\AndroidManifest.xml:15:13-62
+	android:name
+		ADDED from D:\MyFilesAboutAndroid\frame\Test\photogallery\src\main\AndroidManifest.xml:14:13-46
+activity#com.yalantis.ucrop.UCropActivity
+ADDED from D:\MyFilesAboutAndroid\frame\Test\photogallery\src\main\AndroidManifest.xml:17:9-19:15
+	android:theme
+		ADDED from D:\MyFilesAboutAndroid\frame\Test\photogallery\src\main\AndroidManifest.xml:18:13-44
+	android:name
+		ADDED from D:\MyFilesAboutAndroid\frame\Test\photogallery\src\main\AndroidManifest.xml:17:19-66
+uses-sdk
+INJECTED from D:\MyFilesAboutAndroid\frame\Test\photogallery\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\MyFilesAboutAndroid\frame\Test\photogallery\src\main\AndroidManifest.xml
+INJECTED from D:\MyFilesAboutAndroid\frame\Test\photogallery\src\main\AndroidManifest.xml
+INJECTED from D:\MyFilesAboutAndroid\frame\Test\photogallery\src\main\AndroidManifest.xml
+INJECTED from D:\MyFilesAboutAndroid\frame\Test\photogallery\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\MyFilesAboutAndroid\frame\Test\photogallery\src\main\AndroidManifest.xml
+		ADDED from D:\MyFilesAboutAndroid\frame\Test\photogallery\src\main\AndroidManifest.xml
+		INJECTED from D:\MyFilesAboutAndroid\frame\Test\photogallery\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\MyFilesAboutAndroid\frame\Test\photogallery\src\main\AndroidManifest.xml
+		ADDED from D:\MyFilesAboutAndroid\frame\Test\photogallery\src\main\AndroidManifest.xml
+		INJECTED from D:\MyFilesAboutAndroid\frame\Test\photogallery\src\main\AndroidManifest.xml

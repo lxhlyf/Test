@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/view_group_video"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:orientation="horizontal">
+
+        <me.weyye.library.colortrackview.ColorTrackTabLayout
+            android:id="@+id/tab_channel"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            app:tabIndicatorColor="@color/color_f85959"
+            app:tabMode="scrollable"
+            app:tabSelectedTextColor="@color/color_f85959"
+            app:tabTextAppearance="@style/TextAppearanceHome"
+            app:tabTextColor="#ff222222"
+            android:layout_weight="1"/>
+
+        <RelativeLayout
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingLeft="5dp"
+            android:background="@mipmap/shadow_add_titlebar_new">
+
+            <ImageButton
+                android:id="@+id/iv_operation"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerVertical="true"
+                android:background="@android:color/transparent"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/add_channel" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/color_e8e8e8" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

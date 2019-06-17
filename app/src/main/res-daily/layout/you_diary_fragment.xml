@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <com.uikit.TipView
+        android:id="@+id/tip_view"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:visibility="gone"
+        app:tipBackgroundColor="@color/color_D5E8F6"
+        app:tipText="@string/net_unavailable"
+        app:tipTextColor="@color/color_4592C6"
+        app:tipTextSize="14sp"/>
+
+    <com.uikit.refreshlayout.BGARefreshLayout
+        android:id="@+id/you_diary_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <FrameLayout
+            android:id="@+id/fl_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <com.uikit.powerfulrecyclerview.PowerfulRecyclerView
+                android:id="@+id/you_diary_prv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </FrameLayout>
+
+    </com.uikit.refreshlayout.BGARefreshLayout>
+
+</LinearLayout>

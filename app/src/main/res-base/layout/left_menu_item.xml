@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_gravity="center_vertical"
+    android:orientation="horizontal"
+    android:layout_marginTop="6dp">
+
+    <ImageView
+        android:id="@+id/menu_item_icon_iv"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/ic_tab_home_pressed"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="25dp"/>
+
+    <TextView
+        android:id="@+id/menu_item_name_tv"
+        android:layout_width="0dp"
+        android:layout_height="26dp"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:textSize="15sp"
+        android:layout_weight="1"
+        android:text="刘晓慧" />
+
+</LinearLayout>

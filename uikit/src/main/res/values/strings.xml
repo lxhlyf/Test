@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">uikit</string>
+    <string name="net_error_msg">网络不给力</string>
+    <string name="no_comment">暂无评论，点击抢沙发</string>
+
+    <string name="search_you_want_to_search">搜你想搜的</string>
+    <string name="to_top">置顶</string>
+    <string name="hot">热</string>
+    <string name="ad">广告</string>
+    <string name="tag_movie">影视</string>
+    <string name="net_unavailable">网络不可用</string>
+
+    <string name="refresh_pull_down_text">下拉推荐</string>
+    <string name="refresh_release_text">松开推荐</string>
+    <string name="refresh_ing_text">推荐中</string>
+</resources>

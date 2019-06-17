@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="color_222222">#222222</color>
+    <color name="color_F96B6B">#F96B6B</color>
+    <color name="translucent">#aa000000</color>
+    <color name="color_3091D8">#3091D8</color>
+    <color name="color_C1C1C1">#C1C1C1</color>
+    <color name="color_d43d3d">#d43d3d</color>
+    <color name="color_e8e8e8">#e8e8e8</color>
+    <color name="color_f85959">#f85959</color>
+    <color name="color_F2F4F3">#F2F4F3</color>
+    <color name="color_BDBDBD">#BDBDBD</color>
+    <color name="pagefragment_textcolor_cust1">#ff000000</color>
+    <color name="color_406599">#406599</color>
+    <color name="color_cacaca">#cacaca</color>
+    <color name="color_505050">#505050</color>
+    <color name="theme_bg_color">#fff8f7f5</color>
+    <color name="pagefragment_textcolor_common">#ff000000</color>
+    <color name="pagefragment_view_line_bg_common">#ffc0c0c0</color>
+
+    <color name="article_page_textcolor_cust3">#ff000000</color>
+    <color name="article_page_text_select_bg">#ffebe1c4</color>
+    <color name="article_page_textcolor_author">#ff000000</color>
+</resources>

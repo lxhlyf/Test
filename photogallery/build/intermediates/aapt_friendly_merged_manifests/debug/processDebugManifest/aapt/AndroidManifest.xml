@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wq.photo" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="27" />
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name" >
+        <activity
+            android:name="com.wq.photo.MediaChoseActivity"
+            android:label="@string/title_activity_media_chose"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="com.wq.photo.CropImageActivity"
+            android:label="@string/title_activity_crop_image" >
+        </activity>
+        <activity
+            android:name="com.yalantis.ucrop.UCropActivity"
+            android:theme="@style/AppTheme" />
+    </application>
+
+</manifest>

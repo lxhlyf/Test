@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="44dp"
+    android:gravity="center_vertical"
+    android:background="@color/activity_order_text_pressed_night"
+    style="@style/Theme.AppCompat.NoActionBar"
+    android:paddingTop="4dp"
+    android:paddingBottom="2dp">
+
+
+    <ImageButton
+        android:id="@+id/ib_left_icon"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:background="@android:color/transparent"
+        android:visibility="visible"
+        android:src="@drawable/ic_tab_home"/>
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="我是标题"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:visibility="visible"/>
+
+
+    <ImageButton
+        android:id="@+id/ib_right_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="12dp"
+        android:layout_marginLeft="10dp"
+        android:background="@android:color/transparent"
+        android:visibility="visible"
+
+        app:srcCompat="@drawable/ic_camera_enhance_black_24dp"/>
+
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:orientation="vertical">
+
+
+
+
+    <TextView
+        android:id="@+id/item_entry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingLeft="25dp"
+        android:text="entry"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/channel_topic_night"
+        android:paddingLeft="19dp"
+        android:text="释义 : "
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/item_explain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="3dp"
+        android:paddingLeft="23dp"
+        android:textSize="20sp"
+        android:text="explain"/>
+
+
+
+
+</LinearLayout>

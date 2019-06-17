@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name" translatable="false">FirstTest</string>
+
+    <string name="main_rb_news" translatable="false">日报</string>
+    <string name="main_rb_video" translatable="false">视频</string>
+    <string name="main_rb_dictionary" translatable="false">词典</string>
+    <string name="main_rb_schedule" translatable="false">课表</string>
+</resources>

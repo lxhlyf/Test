@@ -1,0 +1,44 @@
+/**
+ *  gradle 的 配置参数文件
+ */
+
+ext {
+
+    android = [compileSdkVersion   : 27,
+               buildToolsVersion   : '27.1.1',
+               applicationId       : 'com.lyf.firsttry',
+               minSdkVersion       : 14,
+               targetSdkVersion    : 27,
+               versionCode         : 1,
+               versionName         : '1.0',
+               versionInfo         : 'App的第2个版本，上线了一些最基础核心的功能.',
+               multiDexEnabled     : true,
+               testInstrumentationRunner : "android.support.test.runner.AndroidJUnitRunner",
+               manifestPlaceholders: [UMENG_CHANNEL_VALUE: 'imooc']]
+
+    signConfigs = ['storeFile'    : 'D://AndroidApk/Key/GradleTestKey.jks',
+                   'storePassword': 'rzq123456',
+                   'keyAlias'     : 'qndroid',
+                   'keyPassword'  : 'rzq123456',
+                   'apkFilePath' : "D://AndroidApk/apkFile"]
+
+    java = ['javaVersion': JavaVersion.VERSION_1_7]
+
+
+    dependence = ['libSupportV7'           : 'com.android.support:appcompat-v7:27.1.1',
+                  'libSupportMultidex'     : 'com.android.support:multidex:1.0.3',
+
+
+                  'libButterKnife'         : 'com.jakewharton:butterknife:8.8.1',
+                  'libAnnotationProcessor' : 'com.jakewharton:butterknife-compiler:8.8.1',
+                  'libDesign'              : 'com.android.support:design:27.1.1',
+                  'retrofitGson'           : 'com.squareup.retrofit2:converter-gson:2.1.0',
+                  'libRetrofit'            : 'com.squareup.retrofit2:retrofit:2.5.0',
+                  'libRxJava'              : 'com.squareup.retrofit2:adapter-rxjava:2.5.0',
+                  'libRetrofitScalars'     : 'com.squareup.retrofit2:converter-scalars:2.1.0',
+                  'libOkhttp'              : 'com.squareup.okhttp3:logging-interceptor:3.12.1',
+                  'libRxAndroid'           : 'io.reactivex:rxandroid:1.2.0',
+                  'libEventBus'            : 'org.greenrobot:eventbus:3.1.1',
+                  'libGlide'               : 'com.github.bumptech.glide:glide:4.0.0-RC0',
+                  'GlideProcessor' : 'com.github.bumptech.glide:compiler:4.8.0']
+}
